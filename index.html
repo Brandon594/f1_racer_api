@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="main.js" defer></script>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+</head>
+<body>
+    <h1 id="test" class="red-color">F1 API call</h1>
+    <h1></h1>
+
+
+    <form name="testData" id="testDataForm">
+        <label for="year">Year:</label>
+        <input type="text" name="year" id="year">
+
+        <label for="set">Set:</label>
+        <input type="text" name="set" id="set">
+
+
+        <button type="submit" id="submitButton">Submit</button>
+    </form>
+
+        <div id="results">
+            
+        </div>
+            
+            <h2>Header</h2>
+            
+            <table id="resultTable">
+                <tr>
+                    <th>Standing</th>
+                    <th>Driver</th>
+                    <th>Points</th>
+                </tr>
+            </table>
+
+</body>
+</html>
